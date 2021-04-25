@@ -5,11 +5,11 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class listaAbbonamenti {
+public class AbbonamentoRiviste {
 
     private Map<Cliente, Set<Rivista>> abbonamenti = new HashMap<Cliente, Set<Rivista>>();
 
-    public listaAbbonamenti() {
+    public AbbonamentoRiviste() {
     }
 
     public Map<Cliente, Set<Rivista>> getAbbonamenti() {
